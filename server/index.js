@@ -26,35 +26,35 @@ app.use(
 
 app.use(
   '/watch/details', cors(), proxy({
-    target:'http://127.0.0.1:3002',
+    target:'http://node-express-env.pkkg93qppn.us-west-2.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
 
 app.use(
   '/watch/suggestions', cors(), proxy({
-    target:'http://127.0.0.1:3002',
+    target:'http://node-express-env.pkkg93qppn.us-west-2.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
 
 app.use(
   '/watch/subscribe', cors(), proxy({
-    target:'http://127.0.0.1:3002',
+    target:'http://node-express-env.pkkg93qppn.us-west-2.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
 
 app.use(
   '/watch/comment', cors(), proxy({
-    target:'http://127.0.0.1:3002',
+    target:'http://node-express-env.pkkg93qppn.us-west-2.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
 
 app.use(
   '/watch/commentFeeling', cors(), proxy({
-    target:'http://127.0.0.1:3002',
+    target:'http://node-express-env.pkkg93qppn.us-west-2.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
