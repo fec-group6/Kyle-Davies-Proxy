@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 // getting my video list
 app.use(
   '/api/videos', cors(), proxy({
-    target:'http://videolistservice-env.6wxafjhpca.us-west-1.elasticbeanstalk.com/',
+    target:'http://127.0.0.1:3000',
     changeOrigin: true
   })
 );
