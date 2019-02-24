@@ -15,8 +15,8 @@ app.use(
 );
 // getting the video player
 app.use(
-  '/http://ks-v-p-service-dev.us-west-1.elasticbeanstalk.com/', cors(), proxy({
-    target:'http://127.0.0.1:3001',
+  '/video-player-service/api/get-video', cors(), proxy({
+    target:'http://ks-v-p-service-dev.us-west-1.elasticbeanstalk.com/',
     changeOrigin: true
   })
 );
